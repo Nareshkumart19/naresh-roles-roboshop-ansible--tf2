@@ -37,3 +37,10 @@
     include_role:
       name: common
       tasks_from: systemd.yaml
+
+
+  - name: start and enable catalogue
+    ansible.builtin.service:
+      name: catalogue
+      state: started
+      enabled: yes    
