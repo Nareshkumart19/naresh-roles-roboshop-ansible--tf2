@@ -1,1 +1,1 @@
-MONGOD_HOSTS: mongodb.daws84s.space
+MONGOD_HOSTS: mongodb-{{ env }}.thupakula.space
