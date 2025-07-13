@@ -1,2 +1,2 @@
-REDIS_HOSTS: redis.daws84s.space
-CATALOGUE_HOSTS: catalogue.daws84s.space
+REDIS_HOSTS: redis-{{ env }}.thupakula.space
+CATALOGUE_HOSTS: catalogue-{{ env }}.thupakula.space
